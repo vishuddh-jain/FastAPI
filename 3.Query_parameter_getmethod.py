@@ -38,5 +38,6 @@ def get_student(*,student_id : int, name : Optional[str] = None, test : int): # 
 '''
 -> we cannot use multiple param/arguments here in any sequence, like :def get_student(name: Optional[str]:None, test:int).
 -> here required argument can't come after optional you've to change their places OR just add "*" as first param. like:
-                def get_students(*, name : Optional[str] = None, test : int)
+                def get_students(*, name : Optional[str] = None, test : int).
+-> Optional is not a required parameter.
 '''
