@@ -22,3 +22,4 @@ the function under that endpoint will be executed.
 3.) .put -- Updates something that already exits
 4.) .delete -- deletes anything 
 """
+# API is basically a link with an endpoint also known as path 
