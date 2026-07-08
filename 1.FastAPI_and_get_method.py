@@ -9,7 +9,7 @@ app = FastAPI()
 -> "/" - this is the endpoint(path), / means root url. eg : http://127.0.0.5:8000/ so here the last / is the end point,
 from where the info is being fetched 
 """
-@app.get("/") # this is an endpoint
+@app.get("/") # this is an endpoint of an API
 def index():
     return{"name" : "First API"}
 
